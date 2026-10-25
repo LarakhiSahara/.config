@@ -1,0 +1,5 @@
+export COLOR0="{{colors.surface.default.hex}}"
+export COLOR1="{{colors.primary.default.hex}}"
+export COLOR2="{{colors.secondary.default.hex}}"
+export COLOR3="{{colors.tertiary.default.hex}}"
+export COLOR4="{{colors.error.default.hex}}"

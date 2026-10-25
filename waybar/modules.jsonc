@@ -1,0 +1,138 @@
+{
+    "niri/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "default": "I"
+        }
+    },
+
+   "hyprland/workspaces": {
+        "format": "",
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "*": 5
+        }
+    },
+    
+    "ext/workspaces": {
+        "format": "{icon}",
+        "ignore-hidden": true,
+        "on-click": "activate",
+        "on-click-right": "deactivate",
+        "sort-by-id": true
+    },
+
+    "niri/window": {
+        "max-length": 45
+    },
+
+    "cpu": {
+        "interval": 40,
+        "format":" {usage}%",
+        "states": {
+            "warning": 80,
+            "critical": 90
+        }
+    },
+
+    "tray" : {
+        "icon-size": 13,
+        "spacing": 10,
+        "cursor": true
+    },
+
+    "memory": {
+        "interval": 40,
+        "format": "  {used:0.1f}G/{total:0.1f}G",
+        "states": {
+            "warning": 80,
+            "critical": 90
+        }
+    },
+
+    "temperature": {
+        "interval": 50,
+        "hwmon-path": "/sys/class/hwmon/hwmon7/temp1_input",
+	      "format": "{icon} {temperatureC}°",
+        "critical-threshold": 80,
+        "format-icons": ["","","","",""]	
+    },
+
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "{icon}  {volume}%",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right": "hyprctl dispatch exec -- pavucontrol -t 4",
+        "scroll-step": 2,
+        "tooltip": false,
+        "format-muted": "{icon}",
+        "format-icons": {
+            "headphone": "",
+            "headset": "",
+            "headphone-muted": "󰟎",
+            "headset-muted": "󰟎",
+            "default": ["", ""],
+            "default-muted": "󰖁"
+        }
+    },
+
+    "network": {
+        "interval": 1000,
+        "format-disabled": "",
+        "format-wifi": "  {essid}",
+        "format-ethernet": "󱓞 Wired connection",
+        "format-disconnected": "",
+        "max-length": 7
+    },
+
+    "battery": {
+        "interval": 30,
+        "full-at": 100,
+        "tooltip": true,
+        "format-full": "",
+        "format": "{icon} {capacity}%",
+        "format-time": "{H}:{M:02}",
+        "format-charging": " {capacity}% ({time})",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂂", "󰁹"],
+        "states": {
+            "warning": 30,
+            "critical": 15
+        }
+    },
+
+    "clock": {
+        "format": "{:%H:%M %d %B %Y}",
+    },
+
+    "mpd": {
+        "server": "localhost",
+        "port": 6600,
+        "format": "{title} - {artist}  ",
+        "format-disconnected": "",
+        "format-stopped": "",
+        "unknown-tag": "N/A",
+        "max-length": 30,
+        "interval": 2,
+        "state-icons": {
+            "paused": "󰏤",
+            "playing": "󰐊"
+        }
+    },
+    
+    "custom/mpd-power": {
+        "format": "  󰎆 MPD  ",
+        "on-click": "mpd",
+        "on-click-right": "pkill mpd",
+        "tooltip-format": "Click: Iniciar MPD\nRight Click: Detener MPD"
+    },
+
+    "custom/start": {
+        "format": "  ",
+        "on-click": "wofi --show drun &"
+    },
+    
+    "tray": {
+        "icon-size": 16,
+        "spacing": 8
+    }
+}

@@ -1,0 +1,235 @@
+14:41:38.618: Platform: Wayland
+14:41:38.618: CPU Name: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz
+14:41:38.618: CPU Speed: 2500.188MHz
+14:41:38.618: Physical Cores: 2, Logical Cores: 4
+14:41:38.618: Physical Memory: 7848MB Total, 582MB Free
+14:41:38.618: Kernel Version: Linux 6.12.11_1
+14:41:38.618: Distribution: "Void" Unknown
+14:41:38.618: Desktop Environment: mango (mango)
+14:41:38.618: Session Type: wayland
+14:41:38.620: Current Date/Time: 2026-07-15, 02:41:38 PM
+14:41:38.620: Browser Hardware Acceleration: true
+14:41:38.620: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+14:41:38.620: Portable mode: false
+14:41:38.661: OBS 32.1.2 (linux)
+14:41:38.661: ---------------------------------
+14:41:38.662: ---------------------------------
+14:41:38.662: audio settings reset:
+14:41:38.662: 	samples per sec: 48000
+14:41:38.662: 	speakers:        2
+14:41:38.662: 	max buffering:   960 milliseconds
+14:41:38.662: 	buffering type:  dynamically increasing
+14:41:38.665: ---------------------------------
+14:41:38.665: Initializing OpenGL...
+14:41:38.665: Using EGL/Wayland
+14:41:38.722: Initialized EGL 1.5
+14:41:38.744: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4400 (HSW GT2)
+14:41:38.744: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.1.4, shading language 4.60
+14:41:38.899: ---------------------------------
+14:41:38.899: video settings reset:
+14:41:38.899: 	base resolution:   1366x768
+14:41:38.899: 	output resolution: 1092x614
+14:41:38.899: 	downscale filter:  Bicubic
+14:41:38.899: 	fps:               30/1
+14:41:38.899: 	format:            NV12
+14:41:38.899: 	YUV mode:          Rec. 709/Partial
+14:41:38.899: NV12 texture support enabled
+14:41:38.899: P010 texture support not available
+14:41:38.907: Audio monitoring device:
+14:41:38.907: 	name: Default
+14:41:38.907: 	id: default
+14:41:38.911: ---------------------------------
+14:41:38.912: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:41:38.914: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:41:38.914: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:41:38.915: Failed to initialize module 'decklink.so'
+14:41:39.108: [pipewire] No capture sources available
+14:41:39.116: v4l2loopback not installed, virtual camera not registered
+14:41:39.469: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+14:41:39.469: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+14:41:39.469: FFmpeg VAAPI H264 encoding not supported
+14:41:39.470: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+14:41:39.470: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+14:41:39.470: FFmpeg VAAPI AV1 encoding not supported
+14:41:39.470: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+14:41:39.470: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+14:41:39.470: FFmpeg VAAPI HEVC encoding not supported
+14:41:39.474: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+14:41:39.474: 
+14:41:39.474: NVENC not supported
+14:41:39.474: Failed to initialize module 'obs-nvenc.so'
+14:41:39.501: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+14:41:39.501: 
+14:41:39.501: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+14:41:39.501: ---------------------------------
+14:41:39.501:   Loaded Modules:
+14:41:39.501:     vlc-video.so
+14:41:39.501:     text-freetype2.so
+14:41:39.501:     rtmp-services.so
+14:41:39.501:     obs-x264.so
+14:41:39.501:     obs-webrtc.so
+14:41:39.501:     obs-transitions.so
+14:41:39.501:     obs-qsv11.so
+14:41:39.501:     obs-outputs.so
+14:41:39.501:     obs-filters.so
+14:41:39.501:     obs-ffmpeg.so
+14:41:39.501:     linux-v4l2.so
+14:41:39.501:     linux-pulseaudio.so
+14:41:39.501:     linux-pipewire.so
+14:41:39.501:     linux-jack.so
+14:41:39.501:     linux-capture.so
+14:41:39.501:     linux-alsa.so
+14:41:39.502:     image-source.so
+14:41:39.502:     frontend-tools.so
+14:41:39.502:     decklink-output-ui.so
+14:41:39.502:     decklink-captions.so
+14:41:39.502: ---------------------------------
+14:41:39.502: ---------------------------------
+14:41:39.502: Available Encoders:
+14:41:39.502:   Video Encoders:
+14:41:39.502: 	- ffmpeg_svt_av1 (SVT-AV1)
+14:41:39.502: 	- ffmpeg_aom_av1 (AOM AV1)
+14:41:39.502: 	- obs_x264 (x264)
+14:41:39.502:   Audio Encoders:
+14:41:39.502: 	- ffmpeg_aac (FFmpeg AAC)
+14:41:39.502: 	- ffmpeg_opus (FFmpeg Opus)
+14:41:39.502: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+14:41:39.502: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+14:41:39.502: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+14:41:39.502: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+14:41:39.502: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+14:41:39.502: ==== Startup complete ===============================================
+14:41:39.512: No scene file found, creating default scene
+14:41:39.562: All scene data cleared
+14:41:39.562: ------------------------------------------------
+14:41:39.569: Switched to scene 'Scene'
+14:41:39.569: Created scene collection 'Untitled' (clean, Untitled.json)
+14:41:39.569: ------------------------------------------------
+14:41:39.621: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+14:41:40.230: [rtmp-services plugin] Successfully updated file 'services.json' (version 286)
+14:41:40.230: [rtmp-services plugin] Successfully updated package (version 286)
+14:41:51.442: 
+14:41:51.442: ==== Auto-config wizard testing commencing ======
+
+14:41:51.474: ---------------------------------
+14:41:51.475: video settings reset:
+14:41:51.475: 	base resolution:   1366x768
+14:41:51.475: 	output resolution: 852x480
+14:41:51.475: 	downscale filter:  Bicubic
+14:41:51.475: 	fps:               30/1
+14:41:51.475: 	format:            NV12
+14:41:51.475: 	YUV mode:          Rec. 709/Partial
+14:41:51.475: NV12 texture support enabled
+14:41:51.475: P010 texture support not available
+14:41:51.482: Output 'null': Tried to use obs_output_set_media on an encoded output
+14:41:51.482: ---------------------------------
+14:41:51.482: [x264 encoder: 'test_x264'] preset: veryfast
+14:41:51.482: [x264 encoder: 'test_x264'] profile: high
+14:41:51.482: [x264 encoder: 'test_x264'] settings:
+14:41:51.482: 	rate_control: CRF
+14:41:51.482: 	bitrate:      0
+14:41:51.482: 	buffer size:  0
+14:41:51.482: 	crf:          20
+14:41:51.482: 	fps_num:      30
+14:41:51.482: 	fps_den:      1
+14:41:51.482: 	width:        852
+14:41:51.482: 	height:       480
+14:41:51.482: 	keyint:       250
+14:41:51.482: 
+14:41:51.485: ---------------------------------
+14:41:51.486: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+14:41:51.486: 
+14:41:56.490: Output 'null': stopping
+14:41:56.490: Output 'null': Total frames output: 129
+14:41:56.491: Output 'null': Total drawn frames: 150
+14:41:56.549: ---------------------------------
+14:41:56.549: video settings reset:
+14:41:56.549: 	base resolution:   1366x768
+14:41:56.549: 	output resolution: 640x360
+14:41:56.549: 	downscale filter:  Bicubic
+14:41:56.549: 	fps:               60/1
+14:41:56.549: 	format:            NV12
+14:41:56.549: 	YUV mode:          Rec. 709/Partial
+14:41:56.549: NV12 texture support enabled
+14:41:56.549: P010 texture support not available
+14:41:56.557: Output 'null': Tried to use obs_output_set_media on an encoded output
+14:41:56.557: ---------------------------------
+14:41:56.557: [x264 encoder: 'test_x264'] preset: veryfast
+14:41:56.557: [x264 encoder: 'test_x264'] profile: high
+14:41:56.557: [x264 encoder: 'test_x264'] settings:
+14:41:56.557: 	rate_control: CRF
+14:41:56.557: 	bitrate:      0
+14:41:56.557: 	buffer size:  0
+14:41:56.557: 	crf:          20
+14:41:56.557: 	fps_num:      60
+14:41:56.557: 	fps_den:      1
+14:41:56.557: 	width:        640
+14:41:56.557: 	height:       360
+14:41:56.557: 	keyint:       250
+14:41:56.557: 
+14:41:56.561: ---------------------------------
+14:41:56.562: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+14:41:56.562: 
+14:42:01.562: Output 'null': stopping
+14:42:01.562: Output 'null': Total frames output: 279
+14:42:01.562: Output 'null': Total drawn frames: 300
+14:42:01.591: ---------------------------------
+14:42:01.591: video settings reset:
+14:42:01.591: 	base resolution:   1366x768
+14:42:01.591: 	output resolution: 640x360
+14:42:01.591: 	downscale filter:  Bicubic
+14:42:01.591: 	fps:               30/1
+14:42:01.591: 	format:            NV12
+14:42:01.591: 	YUV mode:          Rec. 709/Partial
+14:42:01.591: NV12 texture support enabled
+14:42:01.591: P010 texture support not available
+14:42:01.595: Output 'null': Tried to use obs_output_set_media on an encoded output
+14:42:01.595: ---------------------------------
+14:42:01.596: [x264 encoder: 'test_x264'] preset: veryfast
+14:42:01.596: [x264 encoder: 'test_x264'] profile: high
+14:42:01.596: [x264 encoder: 'test_x264'] settings:
+14:42:01.596: 	rate_control: CRF
+14:42:01.596: 	bitrate:      0
+14:42:01.596: 	buffer size:  0
+14:42:01.596: 	crf:          20
+14:42:01.596: 	fps_num:      30
+14:42:01.596: 	fps_den:      1
+14:42:01.596: 	width:        640
+14:42:01.596: 	height:       360
+14:42:01.596: 	keyint:       250
+14:42:01.596: 
+14:42:01.597: ---------------------------------
+14:42:01.597: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+14:42:01.597: 
+14:42:06.598: Output 'null': stopping
+14:42:06.598: Output 'null': Total frames output: 129
+14:42:06.598: Output 'null': Total drawn frames: 150
+14:42:06.629: ---------------------------------
+14:42:06.629: video settings reset:
+14:42:06.629: 	base resolution:   1366x768
+14:42:06.629: 	output resolution: 1092x614
+14:42:06.629: 	downscale filter:  Bicubic
+14:42:06.629: 	fps:               30/1
+14:42:06.629: 	format:            NV12
+14:42:06.629: 	YUV mode:          Rec. 709/Partial
+14:42:06.629: NV12 texture support enabled
+14:42:06.629: P010 texture support not available
+14:42:17.669: ---------------------------------
+14:42:17.669: video settings reset:
+14:42:17.669: 	base resolution:   1366x768
+14:42:17.669: 	output resolution: 852x480
+14:42:17.669: 	downscale filter:  Bicubic
+14:42:17.669: 	fps:               30/1
+14:42:17.669: 	format:            NV12
+14:42:17.669: 	YUV mode:          Rec. 709/Partial
+14:42:17.669: NV12 texture support enabled
+14:42:17.669: P010 texture support not available
+14:42:17.676: 
+14:42:17.676: ==== Auto-config wizard testing stopping ========
+
+14:42:25.921: ==== Shutting down ==================================================
+14:42:26.008: All scene data cleared
+14:42:26.008: ------------------------------------------------
+14:42:26.032: Crash sentinel location '/home/zvqn/.config/obs-studio/.sentinel' does not exist
+14:42:26.127: [Scripting] Total detached callbacks: 0
+14:42:26.128: Freeing OBS context data
